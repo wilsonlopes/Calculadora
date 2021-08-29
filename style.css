@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 160px;
+  background-color: #ccc;
+  border-radius: 8px;
+  padding: 0 4px;
+}
+
+.visor {
+  background-color: #7777;
+  width: 100%;
+  margin-top: 4px;
+  border-radius: 8px;
+  padding: 4px;
+  color: #fff;
+  font-weight: 800;
+  min-height: 27px;
+}
+
+.tecla {
+  width: 40px;
+  height: 40px;
+  margin: 4px 0 4px 0;
+  background-color: #888888;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  width: 100%;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
