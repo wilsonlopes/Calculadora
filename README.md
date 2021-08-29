@@ -1,3 +1,3 @@
 # Calculadora básica
 
-### Calculadora feira com Vanilla JS
+### Calculadora feita com Vanilla JS
