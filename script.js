@@ -43,8 +43,11 @@ function fazOperacao (op, v1, v2) {
 }
 
 function calcular () {
-    resultado = Number(fazOperacao(operador, valor1, valor2));
-    valor1 = String(resultado);
-    valor2 = "";
-    document.getElementById("visor").innerHTML = resultado;
+    if(valor1 && valor2) {
+        resultado = Number(fazOperacao(operador, valor1, valor2));
+        valor1 = String(resultado);
+        valor2 = "";
+        document.getElementById("visor").innerHTML = resultado;
+
+    }
 }
