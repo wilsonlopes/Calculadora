@@ -5,11 +5,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Calculadora</title>
 </head>
 
 <body>
+  <div class="container">
+    <div class="visor" id="visor"></div>
+    <div class="linha">
+      <button class="tecla" onclick="manipulaTecla(1)">1</button>
+      <button class="tecla" onclick="manipulaTecla(2)">2</button>
+      <button class="tecla" onclick="manipulaTecla(3)">3</button>
+      <button class="tecla" onclick="manipulaTecla('+')">+</button>
+    </div>
+    <div class="linha">
+      <button class="tecla" onclick="manipulaTecla(4)">4</button>
+      <button class="tecla" onclick="manipulaTecla(5)">5</button>
+      <button class="tecla" onclick="manipulaTecla(6)">6</button>
+      <button class="tecla" onclick="manipulaTecla('-')">-</button>
 
+    </div>
+    <div class="linha">
+      <button class="tecla" onclick="manipulaTecla(7)">7</button>
+      <button class="tecla" onclick="manipulaTecla(8)">8</button>
+      <button class="tecla" onclick="manipulaTecla(9)">9</button>
+      <button class="tecla" onclick="manipulaTecla('x')">x</button>
+    </div>
+    <div class="linha justify-space-between">
+      <button class="tecla" onclick="manipulaTecla(0)">0</button>
+      <button class="tecla" onclick="calcular()">=</button>
+      <button class="tecla" onclick="limparCalculadora()">C</button>
+      <button class="tecla" onclick="manipulaTecla('/')">/</button>
+    </div>
+  </div>
 </body>
-
+<script src="script.js" ></script>
 </html>
